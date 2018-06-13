@@ -2,7 +2,7 @@
 //
 // If you've ever been annoyed by quirks or limited customizability of default system bars, `hotbar` is for you.
 //
-// #Features
+// # Features
 //
 // Best-in-class customizability
 // * support for arbitrary TTF fonts and PNG icons

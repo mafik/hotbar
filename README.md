@@ -13,7 +13,7 @@ Probably the most customizable system bar in the world. Replacement for i3bar, x
 
 If you've ever been annoyed by quirks or limited customizability of default system bars, `hotbar` is for you.
 
-#Features
+# Features
 
 Best-in-class customizability
 * support for arbitrary TTF fonts and PNG icons
@@ -38,10 +38,10 @@ Customize it by navigating to the source directory, and tweaking some of the fil
 cd ~/go/src/mrogalski.eu/go/hotbar/
 ```
 
-* `modules.go` - List of modules. Allows you to add, disable or reorder the blocks.
+* `modules.go` - List of modules. Allows you to add, disable or reorder the modules.
 * `theme.go` - Margins, paddings, icons & fonts. This should cover 90% of customizations you might want.
-* `backlight.go`, `date.go`, `time.go`, `disk.go`, `power.go`, `pulseaudio.go`, `xkb.go`, `i3.go` - Default blocks. Use this to tweak their behavior or as a base when creating your own blocks.
-* `globals.go`, `stepper.go`, `widgets.go` - Variables and functions that may be helpful when adding new types of blocks.
+* `backlight.go`, `date.go`, `time.go`, `disk.go`, `power.go`, `pulseaudio.go`, `xkb.go`, `i3.go` - Default modules. Use this to tweak their behavior or as a base when creating your own modules.
+* `globals.go`, `stepper.go`, `widgets.go` - Variables and functions that may be helpful when adding new modules.
 * `main.go` - Logic for starting up hotbar
 * `tray.go` - Logic for displaying the system tray
 * `signals.go` - Logic for handling Ctrl+C gracefully

@@ -128,4 +128,4 @@ var NeonTheme = Theme{
 	},
 }
 
-var T = DuskTheme
+var T = NeonTheme

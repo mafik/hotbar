@@ -11,23 +11,21 @@ If you do not have the go command on your system, you need to [Install Go](http:
 * * *
 Probably the most customizable system bar in the world. Replacement for i3bar, xfce4-panel, etc.
 
-If you've ever been annoyed by quirks or limited customizability of default system bars, `hotbar` is for you.
+If you've ever been annoyed by quirks or limited customizability of
+default system bars, `hotbar` is for you. It's distinguishing feature
+is the ability to configure every aspect of drawing directly in the
+source code. So go ahead and tweak it to your liking!
+
+![Dusk theme](screenshot1.png?raw=true "Dusk theme")
+![Neon theme](screenshot2.png?raw=true "Neon theme")
 
 # Features
 
-Best-in-class customizability
-* support for arbitrary TTF fonts and PNG icons
 * ability to tweak drawing routines directly in the source code
 * modules can draw custom GFX at 60fps with SDL2 & OpenGL
-
-Super low power usage
-* one redraw / minute
-* all drawing performed on the GPU
-
-Advanced control
-* tweak backlight or sound volume with mouse wheel
+* low power usage - only one redraw / minute
+* tweaking backlight or sound volume with mouse wheel
 * all modules are usable with touchscreens
-* toggle through CPU governors by clicking on battery widget (requires `sudo`)
 
 # Usage
 Run it with `hotbar`.
